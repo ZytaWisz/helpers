@@ -1,0 +1,70 @@
+:icons: font
+:hardbreaks:
+:authors: Tomasz Borek, Paweł Kierat, Marcin Ogorzałek
+:copyright: Copyrighted by EPAM Systems
+= Helpers
+
+You should share here your solutions to the task about helper classes from JDK.
+
+IMPORTANT: The main package for these solutions should be `com.epam.prejap.ess.helpers`.
+
+TIP: You can add new dependencies and plugins to the `pom.xml` if necessary.
+
+== Goals
+
+. Studying about helpers on your and the other's code.
+. Creating a source of the knowledge on the subject that you can come back to.
+. Exercising work with shared repository and forks.
+
+== Task
+
+. Fork the repository (button in the upper right corner of the main page).
+. Create an issue with chosen topic in teh main repository.
+. Implement your solution to the task given to you during lecture about helpers.
+. Create a commit with a meaningful message.
+. Push the changes to a remote master branch **on your fork**.
++
+NOTE: You don't have to use a feature branch, only `master` is fine.
++
+. Create a Pull Request to merge it to `EPAM-Online-Courses/helpers:master`.
+. *Review code* of the others.
+
+[IMPORTANT]
+----
+YOU WILL NOW BE WORKING ON THE FORKED REPO, NOT ON THIS ONE, BUT ON YOUR GITHUB
+COPY OF IT, CALLED THE FORK. WE REPEAT, YOU WILL NOW BE WORKING ON THE FORK.
+
+Commands and task steps to do ON THE FORK. It's to be done ON THE FORK, ok?
+NOT HERE, NOT IN YOUR LOCAL REPOSITORY.
+----
+
+== Rules
+
+. Your implementation shall not break any of the existing solutions.
+. Your colleagues have to review your code and you should apply theirs remarks.
+. PRs will be accepted ASAP once they are reviewed and we see they're demonstrating API assigned to you during the lecture about helpers.
+
+=== Tasks
+
+* `Arrays.fill` vs `Arrays.setAll` methods
+* `Arrays.copy` vs `copyOf` vs `System.arrayCopy`
+* How to make a `Stream` out of an array, a collection multiple ways
+* How to search and sort and print an array,
+* `Arrays.mismatch` and `Arrays.compare[Unsigned]`
+* `Arrays.asList` vs `Collections.list` vs `List.of` → how to have a MUTABLE list?
+* `Collections.emptyList` vs `Collections.EMPTY_LIST`
+* Collections: reversing, sorting, shuffling, swapping elements
+* Objects.all-methods-to-check-for-null-and-their-differences
+* empty methods on collections for maps and sets
+* `unmodifiableMap` vs `Map.of`
+* `unmodifiableList` vs `List.of`
+* Collections: `fill`, `nCopies`, `addAll` – and others how to quickly fill a collection?
+* Objects.all-methods-to-check-INDEXes-and-related
+* Comparing and `Objects`
+* Comparing and `Arrays`
+* Comparing and `Collections`
+* Equals, hashCode and `Objects`
+* Equals, deepEquals and `Arrays`
+* Equals, deepEquals and `Objects`
+* Equals, deepEquals and `Collections`
+* Other (write what will be your focus)

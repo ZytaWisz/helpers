@@ -19,7 +19,7 @@ TIP: You can add new dependencies and plugins to the `pom.xml` if necessary.
 == Task
 
 . Fork the repository (button in the upper right corner of the main page).
-. Create an issue with chosen topic in teh main repository.
+. Create an issue with chosen topic in the main repository.
 . Implement your solution to the task given to you during lecture about helpers.
 . Create a commit with a meaningful message.
 . Push the changes to a remote master branch **on your fork**.

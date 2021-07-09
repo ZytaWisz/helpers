@@ -6,7 +6,7 @@
 
     <groupId>com.epam.prejap.ess</groupId>
     <artifactId>helpers</artifactId>
-    <version>0.1</version>
+    <version>0.3</version>
     <name>Java Essential Classes :: Helpers</name>
     <description>Solutions for the task about helpers</description>
     <url>https://careers.epam-poland.pl/training/juniors-java-online-program</url>
@@ -73,6 +73,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${version.plugin.maven.compiler}</version>
+                <configuration>
+                    <source>14</source>
+                    <target>14</target>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

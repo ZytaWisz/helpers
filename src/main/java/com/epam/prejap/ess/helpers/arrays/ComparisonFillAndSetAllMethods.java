@@ -9,7 +9,7 @@ import java.util.Arrays;
  * </p>
  *
  * @author Zyta Wiszniewska
- * @version 3.0
+ * @version 0.3
  * @see Arrays
  */
 public class ComparisonFillAndSetAllMethods {

@@ -3,15 +3,14 @@ package com.epam.prejap.ess.helpers.arrays;
 import java.util.Arrays;
 
 /**
- * The type Comparison fill and set all methods.
+ * The type Comparison fill and setAll methods.
  * <p>
  * This methods comes from{@link Arrays} class.
  * </p>
  *
  * @author Zyta Wiszniewska
  * @version 0.3
- * @see Arrays
- */
+  */
 public class ComparisonFillAndSetAllMethods {
 
     /**
@@ -19,7 +18,13 @@ public class ComparisonFillAndSetAllMethods {
      *
      * @param args the input arguments
      */
-    public static <T> void main(String[] args) {
+    public static  void main(String[] args) {
+
+        /**
+         * The fill method in an array allows to fill array in whole or fill from the start index to end index.
+         * The values must be the same type as the array.
+         * In the examples below shown this two options to using fill methods.
+         */
 
 
         int[] array = new int[]{1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 9, 1, 0};
@@ -42,14 +47,25 @@ public class ComparisonFillAndSetAllMethods {
         Arrays.fill(stringArray, 2, 4, "Miś");
         System.out.println("Example 4 with fill method: " + Arrays.toString(stringArray));
 
+        /**
+         * The method sets all in array allows to fill array using the provided generator function to compute each
+         * element.
+         * The values must be the same type as the array.
+         * In the examples below shown this how to using sel all method.
+         */
+
 
         int[] array2 = new int[]{1, 2, 5, 10, 11, 12, 5, 4, 7, 8, 9, 10};
         System.out.println("Original array2: " + Arrays.toString(array2));
         Arrays.setAll(array2, index -> (index + 1) * 10);
         System.out.println("Example 5 with setAll methods: " + Arrays.toString(array2));
 
+        double array3[] = new double[10];
+        Arrays.setAll(array3, (index)-> index*index);
+        System.out.println("Example 6 with setAll methods: "+Arrays.toString(array3));
+
         Arrays.setAll(stringArray, value -> stringArray[value].toUpperCase());
-        System.out.println(Arrays.toString(stringArray));
+        System.out.println("Example 7 with setAll methods: " + Arrays.toString(stringArray));
 
     }
 }

@@ -1,9 +1,11 @@
 package com.epam.prejap.ess.helpers.arrays;
 
 import java.util.Arrays;
+import java.util.function.IntFunction;
 
 /**
- * Examples below shown differences between fill and setAll methods.
+ * Examples below shown differences between {@link Arrays#fill(Object[], Object)}
+ * and {@link Arrays#setAll(Object[], IntFunction)} methods.
  * <p>
  * This methods comes from{@link Arrays} class.
  * </p>
@@ -12,7 +14,6 @@ import java.util.Arrays;
  */
 public class ComparisonFillAndSetAllMethods {
 
-
     public static void main(String[] args) {
 
         /**
@@ -20,7 +21,6 @@ public class ComparisonFillAndSetAllMethods {
          * The values must be the same type as the array.
          * Examples below shown this two options to using fill methods.
          */
-
 
         int[] array = new int[]{1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 9, 1, 0};
         System.out.println("Original array: " + Arrays.toString(array));
